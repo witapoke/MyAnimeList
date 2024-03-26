@@ -1,0 +1,86 @@
+.anime-detail {
+  background-color: #ededed;
+  padding: 3rem 18rem;
+}
+
+.title h1 {
+  display: inline-block;
+}
+
+.details {
+  border: 5px solid black;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.div-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.anime-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.anime-description {
+  width: 100%;
+}
+
+.anime-image img {
+  height: 90%;
+}
+
+.anime-facts span {
+  font-weight: 350;
+}
+
+.anime-facts p {
+  color: black;
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+h3 {
+  margin-top: 1rem;
+}
+
+.trailer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+iframe {
+  padding: 10px;
+  border: 5px solid black;
+}
+
+.character-detail {
+  background-color: #ededed;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 2rem;
+  padding: 2rem;
+  border: 5px solid black;
+  a {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    border-radius: 7px;
+    border: 5px solid black;
+    margin: 13px;
+  }
+  a img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+}
